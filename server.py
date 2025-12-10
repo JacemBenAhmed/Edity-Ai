@@ -2,7 +2,7 @@
 FastAPI chat backend using OpenRouter API
 Exposes:
   - POST /chat  → simple chat endpoint with system prompt
-Requires .env:
+Requires .env :
   API_KEY=<your openrouter key>
   MODEL_NAME=tngtech/deepseek-r1t2-chimera:free
 """
