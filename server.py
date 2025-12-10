@@ -52,6 +52,10 @@ def call_openrouter(messages: list):
 
     return response.json()
 
+@app.get("/")
+async def root():
+    return {"message": "AI up and running!"}
+
 
 @app.post("/chat")
 def chat(payload: dict):
