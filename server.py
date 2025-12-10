@@ -18,7 +18,7 @@ load_dotenv()
 
 app = FastAPI(title="AI Chat via OpenRouter")
 
-SYSTEM_PROMPT = "You are a helpful AI assistant."
+SYSTEM_PROMPT = "You are a helpful AI assistant ."
 
 
 def call_openrouter(messages: list):
